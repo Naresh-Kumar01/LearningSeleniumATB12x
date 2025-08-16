@@ -15,9 +15,9 @@ public class TestSelenium01 {
 
     @Test
     public void test_OpenVWOLoginPage(){
-        // Open VWO.com, right?
-        FirefoxDriver driver = new FirefoxDriver();
-        driver.get("https://ap.vwo.com");
+        // Open Logixerp.com, right?
+        ChromeDriver driver = new ChromeDriver();
+        driver.get("https://www.logixerp.com/Login?c=TMS");
         driver.quit();
 
 
